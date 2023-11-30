@@ -26,7 +26,6 @@
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .header {
@@ -122,9 +121,10 @@
   display: block;
   position: absolute;
   block-size: 2px;
+  width: 0%;
   scale: 0;
   border-bottom: 2px var(--themes-accent-color);
-  transition: scale 0.3s ease;
+  transition: width 0.3s ease;
 }
 
 .theme-menu__button:focus-visible::after {
