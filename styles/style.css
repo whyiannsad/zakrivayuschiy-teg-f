@@ -22,18 +22,18 @@
   font-variation-settings: 'wght' var(--font-weight-text);
   background-image: var(--background-image);
   background-size: cover;
-  max-inline-size:clamp(320px, 100%, 700px);
   margin: 0 auto;
 }
 
 .header {
   display: flex;
+  max-inline-size:clamp(320px, 100%, 700px);
   flex-direction: column;
   align-items: center;
   background-color: var(--themes-background);
   border: 2px solid var(--themes-accent-color);
   max-width: 700px;
-  margin: 100px 0;
+  margin: 100px auto;
   padding-bottom: 25px;
   padding-block-start: 136px;
 }
@@ -129,10 +129,12 @@
 
 .content {
   display: flex;
+  max-inline-size:clamp(320px, 100%, 700px);
   flex-direction: column;
   gap: 50px;
   padding-bottom: 105px;
   align-items: center;
+  margin: 0 auto;
 }
 
 .card_content {
@@ -475,7 +477,7 @@
 
 @media screen and (width <= 375px) {
 
-  .header{
+  .header {
     padding-block-start: 120px;
   }
   
