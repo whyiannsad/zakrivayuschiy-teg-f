@@ -443,7 +443,7 @@
   text-transform: uppercase;
 }
 
-.close-button-size {
+.close_button {
   min-width: 100%;
   min-height: 38px;
 }
@@ -494,7 +494,7 @@
     min-height: 84px;
   }
 
-  .close-button-size {
+  .close_button {
     min-width: 100%;
     min-height: 38px;
   }
